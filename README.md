@@ -87,8 +87,8 @@ If the attempt to load SSL credentials from a data bag fails, the cookbook will
 log a warning but proceed with the rest of the Chef run anyway, on the
 assumption that credentials will be inserted into the Chef "run state" (i.e.
 `node.run_state['sensu']['ssl']`) in the same format using the
-`Sensu::ChefRunState` helper methods, `set_sensu_run_state` and
-`get_sensu_run_state`.
+`Sensu::ChefRunState` helper methods, `set_sensu_state` and
+`get_sensu_state`.
 
 Please see the [documentation for the run state helper
 methods](#helper-modules-and-methods) for more information.
